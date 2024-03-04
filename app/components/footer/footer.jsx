@@ -1,8 +1,11 @@
-import React from 'react'
+import styles from './footer.module.css'
 
 function footer() {
   return (
-    <div>footer</div>
+    <div className={styles.container}>
+      <div className={styles.logo}>lamaDev</div>
+      <div className={styles.text}>creative thoughts agency @ all copy rights</div>
+    </div>
   )
 }
 

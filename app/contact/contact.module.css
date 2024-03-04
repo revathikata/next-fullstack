@@ -1,0 +1,28 @@
+.container{
+    align-items: center;
+    gap: 100px;
+    display: flex;
+    margin: 20px;
+}
+.imgContainer{
+flex: 1;
+position: relative;
+}
+.formContainer{
+flex: 1;
+}
+.img{
+   width: 400px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.form input, .formtextarea{
+padding: 20px;
+border-radius: 5px;
+border: 1px solid var(--btn);
+outline:none
+}
